@@ -1,0 +1,26 @@
+name: Feature
+description: Suggest a new feature for the project
+title: "Feature: "
+
+body:
+  - type: textarea
+    id: feature_description
+    attributes:
+      label: Feature Description
+      description: Describe the new feature you would like to see in the project.
+    validations:
+      required: true
+  - type: textarea
+    id: benefits
+    attributes:
+      label: Benefits
+      description: Explain how this feature would benefit users or improve the project.
+    validations:
+      required: true
+  - type: textarea
+    id: implementation_ideas
+    attributes:
+      label: Implementation Ideas
+      description: If you have any ideas on how this feature could be implemented, please share them here.
+    validations:
+      required: false

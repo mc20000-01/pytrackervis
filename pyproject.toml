@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=65.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pytrackervis"
+version = "0.1.0"
+description = "A CLI tool to visualize 4-channel .mod files as an oscilloscope-style MP4 video."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "See LICENSE.md" }
+dependencies = [
+    "numpy",
+    "opencv-python",
+    "scipy",
+]
+
+[project.urls]
+Homepage = "https://github.com/kanecoded/pytrackervis"
+Repository = "https://github.com/kanecoded/pytrackervis"
+
+[project.scripts]
+pytrackervis = "main:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+py-modules = ["main"]

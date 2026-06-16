@@ -2,14 +2,10 @@
 
 ## Supported Versions
 
-<!-- | Version | Supported          |
-     | ------- | ------------------ |
-     | 5.1.x   | &check;            | -->
+| Version | Supported |
+| ------- | --------- |
+| 0.x     | &check;   |
 
 ## Reporting a Vulnerability
 
-<!-- Use this section to tell people how to report a vulnerability.
-
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc. -->
+To report a vulnerability, use GitHub's security advisory feature, or e-mail <kane.net@proton.me>. You can expect a response in 30 days or less.

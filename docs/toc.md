@@ -1,10 +1,8 @@
-<!-- You might want to use the Find & Replace tool in your editor to replace all mentions of "Template" (match caps) with your project's name. -->
-
-# Template Documentation
+# PyTrackerVis Documentation
 
 ## Table of Contents
 
-- [Doing Something](./doing-something.md)
+> There is no available documentation for PyTrackerVis, as it is beta software. Please wait for documentation to be written.
 
 ---
 

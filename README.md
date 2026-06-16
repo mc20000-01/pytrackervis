@@ -1,19 +1,28 @@
-<!-- You might want to use the Find & Replace tool in your editor to replace all mentions of "Template" (match caps) with your project's name. -->
+# PyTrackerVis
 
-<h1>
-  <img src="./assets/icon.svg" alt="Template project icon" width="30" style="vertical-align: middle;">
-  Template
-</h1>
-
-> <!-- A short description of your project. Ideally, it should be about three sentences, and shouldn't contain technical terminology. If your reader has no clue what your project is, this block should tell them about it without having to read the rest. -->
+> A CLI tool to visualize 4-channel .mod files.
 
 ## Key Features
 
-- **A big thing:** A description of said big thing. Ideally, it should be three sentences long and not contain technical terminology. This section should have three features like this.
+- **Stylized Output:** PyTrackerVis' output is highly styled, taking inspiration from some other tracker module YouTube channels and how they visualize their modules.
+- **Easy to Use:** You only have to return the input module and the output MP4, and PyTrackerVis does the rest. Optionally, you can replace the title with `-t`.
 
 ## How to Install
 
-<!-- Give steps on how to safely install your project. If it's a website or something that doesn't need installing (like a protocol of sorts, or something else) then you can safely remove this section. -->
+Install `ffmpeg` via `apt`:
+
+```bash
+sudo apt update
+sudo apt install ffmpeg
+```
+
+Finally, install the package in `pip`:
+
+```bash
+pip install .
+```
+
+When PyTrackerVis reaches v1.x, it will be released to PyPI.
 
 ## Documentation
 
